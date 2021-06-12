@@ -25,4 +25,6 @@ jobs:
           - **.git*
           - .git*/**
           -  **/.git*/**
+          - .github
+          - .git-ftp.log
        dangerous-clean-slate: true
