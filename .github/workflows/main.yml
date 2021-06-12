@@ -30,5 +30,6 @@ jobs:
           - **.git*
           - .git*/**
           -  **/.git*/**
-        dangerous-clean-slate: true
+        #dangerous-clean-slate: true
+        dry-run: true
         
