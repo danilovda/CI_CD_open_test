@@ -21,15 +21,12 @@ jobs:
         server    : ${{ secrets.FTP_SERVER }}
         username  : ${{ secrets.FTP_USERNAME }}
         password  : ${{ secrets.FTP_PASSWORD }}
-        server-dir: http/
-       #ftp-server: ${{ secrets.FTP_SERVER_1 }}
-       #ftp-username: ${{ secrets.FTP_USERNAME }}
-       #ftp-password: ${{ secrets.FTP_PASSWORD }}
-        #ARGS: --delete
+        server-dir: http/        
         exclude: .git*
           - **.git*
           - .git*/**
           -  **/.git*/**
         dangerous-clean-slate: true
-        #dry-run: true
+        
+        
         
